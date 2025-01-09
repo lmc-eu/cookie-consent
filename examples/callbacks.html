@@ -150,7 +150,7 @@
     window.ccm = initCookieConsentManager( // note we store cookieConsent instance in global window.ccm variable
       'github.example',
       {
-        consentCollectorApiUrl: 'https://ccm.lmc.cz/local-data-acceptation-data-entries?Spot=(public,demo)', // override default URL for demo purposes; do not set custom consentCollectorApiUrl unless you have been explicitly guided to do so!
+        consentCollectorApiUrl: 'https://consents.almacareer.tech/acl-lda/local-data-acceptation-data-entries?Spot=(public,demo)', // override default URL for demo purposes; do not set custom consentCollectorApiUrl unless you have been explicitly guided to do so!
         displayMode: 'soft', // show consent in a bottom banner and do not force user action before page could be used
         onConsent: ({cookieConsent}) => { // any type of consent detected (including only necessary, custom selection or all categories)
           markCallbackCalled('onConsent');

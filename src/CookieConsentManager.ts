@@ -23,7 +23,7 @@ const noopChangeCallback: OnChangeCallback = () => {};
 const defaultOptions: CookieConsentManagerOptions = {
   defaultLang: 'cs',
   autodetectLang: true,
-  consentCollectorApiUrl: 'https://ccm.lmc.cz/local-data-acceptation-data-entries',
+  consentCollectorApiUrl: 'https://consents.almacareer.tech/acl-lda/local-data-acceptation-data-entries',
   onFirstConsent: noopConsentCallback,
   onConsent: noopConsentCallback,
   onChange: noopChangeCallback,
