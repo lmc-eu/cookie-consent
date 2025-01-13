@@ -3,6 +3,7 @@ import { config as configCs } from '../cs';
 import { config as configDe } from '../de';
 import { config as configEn } from '../en';
 import { config as configEt } from '../et';
+import { config as configFr } from '../fr';
 import { config as configHr } from '../hr';
 import { config as configHu } from '../hu';
 import { config as configLt } from '../lt';
@@ -20,6 +21,7 @@ describe.each([
   ['de', configDe],
   ['en', configEn],
   ['et', configEt],
+  ['fr', configFr],
   ['hr', configHr],
   ['hu', configHu],
   ['lt', configLt],

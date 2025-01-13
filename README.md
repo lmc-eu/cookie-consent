@@ -285,6 +285,7 @@ Translation of the user interface is provided in the following languages:
 - German (`de`)
 - English (`en`)
 - Estonian (`et`)
+- French (`fr`)
 - Croatian (`hr`)
 - Hungarian (`hu`)
 - Lithuanian (`lt`)
